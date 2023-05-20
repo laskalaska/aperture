@@ -23,7 +23,7 @@ header nav ul li:first-of-type{
     margin-right: 24px;
 }
 header nav li a{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -35,7 +35,7 @@ header nav ul li:first-of-type a{
     font-size: 13px;
 }
 header nav ul li:last-of-type a{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -61,7 +61,7 @@ header nav ul li:last-of-type a{
     text-align: center;
 }
 .main_banner h3{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -71,7 +71,7 @@ header nav ul li:last-of-type a{
     color: #C0C0C0;
 }
 .main_banner h1{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 54px;
@@ -79,7 +79,7 @@ header nav ul li:last-of-type a{
     color: #FFFFFF;
 }
 .main_banner p{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -97,7 +97,7 @@ header nav ul li:last-of-type a{
     margin: auto;
 }
 .need_help h2{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -106,7 +106,7 @@ header nav ul li:last-of-type a{
     margin-bottom: 15px;
 }
 .need_help h3{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -118,7 +118,7 @@ header nav ul li:last-of-type a{
     background-color: #FFFFFF;
     border-radius: 14px;
     padding: 5px 10px 5px 4px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -139,7 +139,44 @@ header nav ul li:last-of-type a{
     width: 32px;
     height: 32px;
 }
-
+.mountain_img{
+    background-image: url("../images/mountain.jpg");
+}
+.leafs_img{
+    background-image: url("../images/monsteraLeafs.jpg");
+}
+.star_fall_img{
+    background-image: url("../images/starFall.jpg");
+}
+.information_block{
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.information_block article{
+    max-width: 298px;
+    margin-right: 62px;
+}
+.information_block h3{
+    font-family: 'Poppins', sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.information_block p{
+    font-family: 'Poppins', sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
 /*.logo:hover{*/
 
 /*}*/
