@@ -55,10 +55,47 @@ header nav ul li:last-of-type a{
     align-items: flex-end;
     padding-bottom: 71px;
     box-sizing: border-box;
+    position: relative;
 }
 .main_banner .container{
     max-width: 580px;
     text-align: center;
+}
+.widget_right_bottom{
+    position: absolute;
+    right: 40px;
+    bottom: 46px;
+    display: flex;
+}
+.widget_right_bottom li{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+.widget_right_bottom li:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/IMAGE (1).svg");
+    width: 16px;
+    height: 16px;
+    margin-left: 16px;
+    margin-right: 6px;
+    position: relative;
+    bottom: -7px;
+}
+.widget_right_bottom li:nth-child(2):before{
+    background-image: url("../images/IMAGE (2).svg");
+}
+.widget_right_bottom li:nth-child(3):before{
+    background-image: url("../images/IMAGE (3).svg");
+    width: 32px;
+}
+.widget_right_bottom li:nth-child(4):before{
+    background-image: url("../images/IMAGE (4).svg");
+    width: 10px;
 }
 .main_banner h3{
     font-family: 'Poppins', sans-serif;;
