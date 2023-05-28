@@ -23,7 +23,7 @@ header nav ul li:first-of-type{
     margin-right: 24px;
 }
 header nav li a{
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -61,44 +61,8 @@ header nav ul li:last-of-type a{
     max-width: 580px;
     text-align: center;
 }
-.widget_right_bottom{
-    position: absolute;
-    right: 40px;
-    bottom: 46px;
-    display: flex;
-}
-.widget_right_bottom li{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 12px;
-    color: #FFFFFF;
-}
-.widget_right_bottom li:before{
-    content: "";
-    display: inline-block;
-    background-image: url("../images/IMAGE (1).svg");
-    width: 16px;
-    height: 16px;
-    margin-left: 16px;
-    margin-right: 6px;
-    position: relative;
-    bottom: -7px;
-}
-.widget_right_bottom li:nth-child(2):before{
-    background-image: url("../images/IMAGE (2).svg");
-}
-.widget_right_bottom li:nth-child(3):before{
-    background-image: url("../images/IMAGE (3).svg");
-    width: 32px;
-}
-.widget_right_bottom li:nth-child(4):before{
-    background-image: url("../images/IMAGE (4).svg");
-    width: 10px;
-}
 .main_banner h3{
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -122,6 +86,110 @@ header nav ul li:last-of-type a{
     font-size: 14px;
     line-height: 20px;
     color: #C0C0C0;
+}
+.widget_right_bottom{
+    position: absolute;
+    right: 40px;
+    bottom: 46px;
+    display: flex;
+}
+.widget_right_bottom li{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+.widget_right_bottom li:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/timer.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    bottom: -7px;
+}
+.widget_right_bottom li:nth-child(2):before{
+    background-image: url("../images/lens.svg");
+}
+.widget_right_bottom li:nth-child(3):before{
+    background-image: url("../images/iso.svg");
+    width: 32px;
+}
+.widget_right_bottom li:nth-child(4):before{
+    background-image: url("../images/map_point.svg");
+    width: 10px;
+}
+.what_we_do{
+    background-color: #000000;
+    padding: 113px 0 100px;
+}
+.what_we_do h2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.what_we_do h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 42px;
+}
+.what_we_do .container{
+    max-width: 1168px;
+    margin: auto;
+}
+.what_we_do .d-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.what_we_do article{
+    max-width: 576px;
+    margin-bottom: 16px;
+    position: relative;
+}
+.what_we_do article img{
+    display: block;
+    width: 100%;
+}
+.what_we_do article .description{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+}
+.what_we_do .description h5{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.what_we_do .description p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-bottom: 17px;
 }
 .need_help{
     padding-top: 120px;
@@ -191,6 +259,7 @@ header nav ul li:last-of-type a{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: relative;
 }
 .information_block article{
     max-width: 298px;
