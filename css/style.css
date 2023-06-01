@@ -191,6 +191,70 @@ header nav ul li:last-of-type a{
     color: #C0C0C0;
     margin-bottom: 17px;
 }
+.past_clients{
+    padding-top: 120px;
+    padding-bottom: 140px;
+    background: black;
+}
+.past_clients .container{
+    max-width: 1168px;
+    margin: auto;
+}
+.past_clients h2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.past_clients h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 82px;
+}
+.past_clients .clients_links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.past_clients .clients_links a {
+    max-width: 128px;
+    display: inline-block;
+}
+.past_clients .owl-item{
+    text-align: center;
+}
+.past_clients .owl-stage{
+    display: flex;
+    align-items: center;
+}
+.past_clients .owl-nav .owl-prev{
+    background-image: url("https://tpanda1983.github.io/california/images/chevron.svg")!important;
+    width: 14px;
+    height: 26px;
+    position: absolute;
+    left: -20px;
+    top: 30px;
+    background-color: #FFFFFF!important;
+}
+.past_clients .owl-nav .owl-next{
+    background-image: url("https://tpanda1983.github.io/california/images/chevron.svg")!important;
+    width: 14px;
+    height: 26px;
+    position: absolute;
+    right: -20px;
+    top: 30px;
+    background-color: #FFFFFF!important;
+    transform: scaleX(-1);
+}
 .need_help{
     padding-top: 120px;
     padding-bottom: 108px;
