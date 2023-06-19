@@ -30,7 +30,9 @@
 
 }
 @media only screen and (max-width: 768px) {
-
+    .nav-but-wrap{
+        display: inline-block;
+    }
 }
 @media only screen and (max-width: 428px) {
     header nav ul{
