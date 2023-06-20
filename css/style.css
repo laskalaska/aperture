@@ -13,6 +13,11 @@ header .container {
     align-items: center;
 }
 
+.logo{
+    position: relative;
+    z-index: 99;
+}
+
 header nav ul {
     display: flex;
     align-items: center;
