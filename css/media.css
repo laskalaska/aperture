@@ -33,9 +33,6 @@
     .nav-but-wrap{
         display: inline-block;
     }
-    header nav ul{
-        display: inline-block;
-    }
     .nav {
         position: fixed;
         z-index: 98;

@@ -1,0 +1,929 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import "style.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;700&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+header {
+  padding: 24px 0;
+  background-color: #181818;
+}
+header .container {
+  max-width: 1200px;
+  margin: auto;
+  padding-left: 34px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  header nav ul {
+    display: inline-block;
+  }
+}
+header nav ul li {
+  margin-left: 32px;
+}
+header nav ul li:first-of-type {
+  margin-right: 24px;
+}
+header nav ul li:first-of-type a {
+  font-size: 13px;
+}
+header nav ul li a {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+header nav ul li:last-of-type a {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  color: #000000;
+  background: #fff;
+  border-radius: 14px;
+  padding: 11px 20px;
+}
+
+.main_banner {
+  height: calc(100vh - 82px);
+  background-image: url("../images/IMAGE.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 71px;
+  box-sizing: border-box;
+  position: relative;
+}
+.main_banner .container {
+  max-width: 580px;
+  text-align: center;
+}
+.main_banner .container h3 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #C0C0C0;
+}
+.main_banner .container h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 59px;
+  color: #fff;
+}
+.main_banner .container p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #C0C0C0;
+}
+
+.widget_right_bottom {
+  position: absolute;
+  right: 40px;
+  bottom: 46px;
+  display: flex;
+}
+.widget_right_bottom li {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #fff;
+  margin-left: 16px;
+}
+.widget_right_bottom li:before {
+  content: "";
+  display: inline-block;
+  background-image: url("../images/timer.svg");
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+  position: relative;
+  bottom: -7px;
+}
+.widget_right_bottom li:nth-child(2):before {
+  background-image: url("../images/lens.svg");
+}
+.widget_right_bottom li:nth-child(3):before {
+  background-image: url("../images/iso.svg");
+  width: 32px;
+}
+.widget_right_bottom li:nth-child(4):before {
+  background-image: url("../images/map_point.svg");
+  width: 10px;
+}
+
+.what_we_do {
+  background-color: #000000;
+  padding: 113px 0 100px;
+}
+.what_we_do .container {
+  max-width: 1168px;
+  margin: auto;
+}
+.what_we_do .container h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 42px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.what_we_do .container h4 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 30px;
+  text-align: center;
+  color: #C0C0C0;
+  margin-bottom: 42px;
+}
+.what_we_do .container .d-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.what_we_do .container .d-flex article {
+  max-width: 576px;
+  margin-bottom: 16px;
+  position: relative;
+}
+.what_we_do .container .d-flex article .description {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  right: 30px;
+}
+.what_we_do .container .d-flex article .description h5 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.what_we_do .container .d-flex article .description p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #C0C0C0;
+  margin-bottom: 17px;
+}
+.what_we_do .container .d-flex article img {
+  display: block;
+  width: 100%;
+}
+
+.information_block {
+  background-size: cover;
+  min-height: 600px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+.information_block article {
+  max-width: 298px;
+  margin-right: 62px;
+}
+.information_block article h3 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.information_block article p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #C0C0C0;
+}
+
+.mountain_img {
+  background-image: url("../images/mountain.jpg");
+}
+
+.leafs_img {
+  background-image: url("../images/monsteraLeafs.jpg");
+}
+
+.star_fall_img {
+  background-image: url("../images/starFall.jpg");
+}
+
+.past_clients {
+  padding-top: 120px;
+  padding-bottom: 140px;
+  background: black;
+}
+.past_clients .container {
+  max-width: 1168px;
+  margin: auto;
+}
+.past_clients .container h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 42px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.past_clients .container h3 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #C0C0C0;
+  margin-bottom: 82px;
+}
+.past_clients .container .clients_links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.past_clients .container .clients_links a {
+  max-width: 128px;
+  display: inline-block;
+}
+
+.past_clients .owl-item {
+  text-align: center;
+}
+
+.past_clients .owl-stage {
+  display: flex;
+  align-items: center;
+}
+
+.past_clients .owl-nav .owl-prev {
+  background-image: url("https://tpanda1983.github.io/california/images/chevron.svg") !important;
+  width: 14px;
+  height: 26px;
+  position: absolute;
+  left: -20px;
+  top: 30px;
+  background-color: #fff !important;
+}
+
+.past_clients .owl-nav .owl-next {
+  background-image: url("https://tpanda1983.github.io/california/images/chevron.svg") !important;
+  width: 14px;
+  height: 26px;
+  position: absolute;
+  right: -20px;
+  top: 30px;
+  background-color: #fff !important;
+  transform: scaleX(-1);
+}
+
+.need_help {
+  padding-top: 120px;
+  padding-bottom: 108px;
+  background-color: black;
+}
+.need_help .container {
+  max-width: 571px;
+  text-align: center;
+  margin: auto;
+}
+.need_help .container h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 42px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.need_help .container h3 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #C0C0C0;
+  margin-bottom: 22px;
+}
+
+.dot_white_link {
+  background-color: #fff;
+  border-radius: 14px;
+  padding: 5px 10px 5px 4px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #000000;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.dot_white_link:before {
+  content: "";
+  display: inline-block;
+  margin-right: 6px;
+  background-color: black;
+  border-radius: 13px;
+  width: 32px;
+  height: 32px;
+}
+
+footer {
+  padding: 100px 0;
+  background-color: black;
+}
+
+footer .container {
+  max-width: 1168px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 36px;
+}
+
+footer .container:nth-of-type(2) {
+  /*border-top: solid 2px white;*/
+  /*border-bottom: solid 2px white;*/
+  padding: 36px 0;
+  margin-bottom: 56px;
+}
+
+footer .container:nth-of-type(2) .ft_right {
+  width: 100%;
+  max-width: 458px;
+}
+
+footer .logo {
+  margin-bottom: 20px;
+}
+
+footer .ft_left p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #C0C0C0;
+}
+
+footer .ft_right {
+  display: flex;
+}
+
+footer .ft_right ul {
+  list-style: none;
+}
+
+footer .ft_right ul:first-of-type {
+  margin-right: 55px;
+}
+
+footer .ft_right li {
+  margin-bottom: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #C0C0C0;
+}
+
+footer .ft_right li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+}
+
+footer .ft_left h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+footer .ft_left h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #C0C0C0;
+}
+
+footer .ft_right form {
+  background: #F9FAFB;
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  padding: 11px 6px;
+  width: 100%;
+}
+
+footer .ft_right form input {
+  width: 75%;
+  display: inline-block;
+  border: none;
+  background-color: transparent;
+}
+
+footer .ft_right form button {
+  border: none;
+  background: #000000;
+  border-radius: 11px;
+  height: 30px;
+  width: 63px;
+}
+
+footer .ft_icon {
+  margin-left: 20px;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+  /*border: none;*/
+  background: transparent;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+  border: none;
+  background: transparent;
+}
+
+.ui-state-hover {
+  border: 1px solid #c5c5c5;
+}
+
+.ui-state-active {
+  border: 1px solid #003eff;
+}
+
+.ui-widget-content {
+  border: none;
+  background: transparent;
+  /*color: #333333;*/
+}
+
+.ui-accordion .ui-accordion-content {
+  padding: 36px 0;
+}
+
+.ui-accordion .ui-accordion-header {
+  max-width: 1168px;
+  margin: auto;
+  text-align: center;
+}
+
+.ui-accordion .ui-icon {
+  /*right: -100px;*/
+  display: none;
+}
+
+.plus {
+  position: absolute;
+  right: 100px;
+  border: 1px dotted black;
+  width: 3px;
+  height: 3px;
+  background-color: white;
+  box-sizing: border-box;
+  transform: scale(11);
+}
+
+.plus:hover {
+  transform: scale(10);
+}
+
+.ui-state-active .plus {
+  width: 0;
+}
+
+#accordion h3 {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  position: relative;
+  z-index: 99;
+}
+
+/*# sourceMappingURL=preproc.css.map */
